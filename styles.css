@@ -1,0 +1,42 @@
+/* Estilo general para la página */
+body {
+    background: url('steffi-Cj0tPzC5Uic-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #28c3af; /* Color de texto en blanco */
+    font-family: "Cambria", sans-serif; /* Tipo de letra del título */
+}
+
+/* Estilos para los botones */
+.btn {
+    background-color: #52e9c1; /* Color de fondo predeterminado */
+    color: #fff; /* Color de texto en blanco */
+    transition: background-color 0.2s, color 0.2s; /* Transición de colores al pasar el mouse */
+    border: 2px solid #17A2B8; /* Color del borde de los botones */
+}
+
+.btn {
+    background-color: #25a242; /* Color de fondo al pasar el mouse */
+    color: #2dadad; /* Color de texto en blanco */
+}
+
+/* Estilos para los campos de entrada y etiquetas */
+.form-group label {
+    color: #23b993; /* Color de texto en blanco */
+}
+
+.form-control {
+    background-color: #93d5de; /* Color de fondo verde agua de campos de entrada */
+    color: #fff; /* Color de texto en blanco */
+    border: 2px solid #808080; /* Color del borde de los campos de entrada (gris) */
+}
+
+/* Estilos para el encabezado */
+h1 {
+    color: #fcfcfc; /* Color de texto en blanco */
+}
+
+/* Estilos para el subtítulo ("Llenado de Botellones" y "Historial de Registros") */
+.card-header {
+    background-color: #f1f1f1; /* Color de fondo verde agua de los encabezados de los contenedores */
+    color: #23b993; /* Color de texto en blanco */
+}
